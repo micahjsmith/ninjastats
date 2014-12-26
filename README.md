@@ -30,8 +30,8 @@ that you will want to specify an absolute path to the script to get around
 crontab's idiosyncrasies.
 
 To help you get started on your quest to analyze this data, I have also
-uploaded a file `ninjastats_hist.txt` that has data at (somewhat) hourly
-intervals between December 2013 and December 2014. Enjoy. Please cite this
+uploaded a file `ninjastats_hist.txt` that has data at (not quite) hourly
+intervals between August 2014 and December 2014. Enjoy. Please cite this
 project if you do anything cool with it!
 
 Contact: Micah Smith <micahjsmith@gmail.com>
