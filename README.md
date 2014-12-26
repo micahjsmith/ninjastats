@@ -7,7 +7,7 @@ before class? Ever think that for a school of such resources, the printers
 could be better maintained? Well, with data about this issue you could begin to
 answer the question/smolder in self-righteous fury.
 
-ninjastats is a tool that determines the number of printers working on campus,
+`ninjastats` is a tool that determines the number of printers working on campus,
 out of the total connected to the network, at any one time. It is a shell
 script that drives a very simple C program that I wrote while taking Jae Lee's
 Advanced Programming. The output can be regularly appended to a text file to
@@ -15,19 +15,22 @@ Advanced Programming. The output can be regularly appended to a text file to
 
 To use, compile the C program,
 ```
-gcc -o ninjas.out ninjas.c
+$ gcc -o ninjas.out ninjas.c
 ```
 
 Then, by running,
 ```
-./ninjas.sh
+$ ./ninjas.sh
 ```
-you will append a line to the file `ninjastats.txt`.
+in the appropriate directory, you will append a line to the file
+`ninjastats.txt`.
 
-You can also use a utility like `crontab` to execute this task regularly. 
+You can also use a utility like `crontab` to execute this task regularly. Note
+that you will want to specify an absolute path to the script to get around
+crontab's idiosyncrasies.
 
 To help you get started on your quest to analyze this data, I have also
-uploaded a file `ninjastats\_hist.txt` that has data at (somewhat) hourly
+uploaded a file `ninjastats_hist.txt` that has data at (somewhat) hourly
 intervals between December 2013 and December 2014. Enjoy. Please cite this
 project if you do anything cool with it!
 
